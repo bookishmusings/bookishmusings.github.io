@@ -1,6 +1,6 @@
 ---
 title: "Recent Releases: Selling Sexy"
-date: "`r Sys.Date()`"
+date: today
 featured_image: /images/book-review.jpg
 tags:
 - bookreview

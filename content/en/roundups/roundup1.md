@@ -1,6 +1,6 @@
 ---
 title: "Coming Soon"
-date: "`r Sys.Date()`"
+date: today
 featured_image: /images/roundups.png
 tags:
 - rants
