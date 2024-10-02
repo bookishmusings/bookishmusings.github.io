@@ -1,7 +1,7 @@
 title = "Bookish Musings by A"
 baseURL = "https://bookishmusings.netlify.app"
 languageCode = "en-us"
-theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+theme = "gohugo-theme-ananke"
 resourceDir = "../resources"
 enableEmoji = "true"
 
@@ -24,6 +24,7 @@ priority = 0.5
 filename = "sitemap.xml"
 
 [params]
+font = "Open Sans"
 text_color = ""
 author = ""
 favicon = ""
