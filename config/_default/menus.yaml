@@ -4,13 +4,13 @@ main:
     url: 'about'
     weight: 10
   - name: reviews
-    url: '#reviews'
+    url: '/post/'
     weight: 20
   - name: thoughts/rants
     url: "/rants/"
     weight: 40
-  - name: subscribe
-    url: '/subscribe/'
+  - name: subscribe!
+    url: 'subscribe'
     weight: 50
   - name: roundups
     url: '/roundups/'

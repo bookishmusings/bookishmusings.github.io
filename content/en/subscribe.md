@@ -1,7 +1,7 @@
 ---
 title: "subscribe!"
 menu: main
-featured_image: subscribe.jpg
+featured_image: /images/subscribeheader.png
 type: page
 ---
 

@@ -1,14 +1,15 @@
 ---
-date: "2017-04-09T10:58:08-04:00"
+date: `r Sys.Date()`
 description: Selling Sexy, by Lauren Sherman and Chantal Fernandez
 featured_image: /images/book-review.jpg
 tags:
 - bookreview
-toc: true
-title: 'New Reads: Selling Sexy'
+title: 'Recent Releases: Selling Sexy'
 ---
 
 Thank you to Netlify and the publisher for an ARC.
+
+![](https://mpd-biblio-covers.imgix.net/9781250850966.jpg?w=900dpr=2)
 
 # Book Details
 (from the publisher)
