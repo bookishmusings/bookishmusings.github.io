@@ -1,0 +1,17 @@
+
+main:
+  - name: about
+    url: 'about'
+    weight: 10
+  - name: reviews
+    url: '#reviews'
+    weight: 20
+  - name: thoughts/rants
+    url: "/rants/"
+    weight: 40
+  - name: subscribe
+    url: '/subscribe/'
+    weight: 50
+  - name: roundups
+    url: '/roundups/'
+    weight: 30

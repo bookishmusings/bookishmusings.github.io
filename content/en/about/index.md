@@ -1,5 +1,5 @@
 ---
-featured_image: /images/avatar.jpg
+featured_image: /images/banner.png
 menu:
   main:
     weight: 1

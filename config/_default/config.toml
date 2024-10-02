@@ -1,74 +1,38 @@
-baseURL = "https://bookishmusings.github.io/"
-languageCode = "en-us"
 title = "Bookish Musings by A"
-theme = "digital-garden" 
-copyright = "AP©"
-enableEmojis = true
-relativeURLs = false
-canonifyURLs = true
+baseURL = "https://bookishmusings.github.io"
+languageCode = "en-us"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+resourceDir = "../resources"
+enableEmoji = "true"
 
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3                  # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
 
+[languages]
+[languages.en]
+title = "Bookish Musings by A"
+weight = 1
+contentDir = "content/en"
+# languageDirection = 'rtl' for Right-To-Left languages
+
+[sitemap]
+changefreq = "monthly"
+priority = 0.5
+filename = "sitemap.xml"
 
 [params]
-  name = "BookishA"
-  initials = "NP"
-  googleAnalytics = ""
+text_color = ""
+author = ""
+favicon = ""
+site_logo = ""
+description = "Welcome to my blog!"
+# choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+background_color_class = "bg-black"
+recent_posts_number = 3
 
-  [[params.social]]
-    name = "Twitter"
-    link = "#"
-    icon = "fab fa-twitter"
-
-  [[params.social]]
-    name = "Substack"
-    link = "#"
-    icon = "fab fa-envelope-open-text"
-
-
-[menu]
-  [[menu.main]]
-    name = "about"
-    url = "/about/"
-    weight = 1
-  [[menu.main]]
-    name = "reviews"
-    url = "/projects/"
-    weight = 2
-  [[menu.main]]
-    name = "roundups"
-    url = "/roundups/"
-    weight = 3
-  [[menu.main]]
-    name = "subscribe!"
-    url = "/subscribe/"
-    weight = 4
-
-
-[taxonomies]
-  garden_tags = 'garden_tags'
-  project_tags = 'project_tags'
-  library_tags = 'library_tags'
-
-
-[markup]
-  defaultMarkdownHandler = 'goldmark'
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.goldmark.parser]
-    autoHeadingID = true
-    autoHeadingIDType = 'github'
-    wrapStandAloneImageWithinParagraph = true
-    [markup.goldmark.parser.attribute]
-      block = false
-      title = true
-  [markup.goldmark.extensions]
-    definitionList = true
-    footnote = true
-    linkify = true
-    strikethrough = true
-    table = true
-    taskList = true
-    typographer = true
-  [markup.highlight]
-    # Choose from https://xyproto.github.io/splash/docs/all.html
-    style = 'monokailight'
+[[params.ananke_socials]]
+name = "Substack"
+url = "https://twitter.com/GoHugoIO"
