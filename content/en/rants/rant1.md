@@ -1,11 +1,9 @@
 ---
-date: `r Sys.Date()`
-description: nodesc
+title: "Coming Soon"
+date: "`r Sys.Date()`"
 featured_image: /images/rants.png
 tags:
 - rants
-- fireside chats
-title: Internet Warrior Mode: Coming Soon!
 ---
 
 Coming Soon!
