@@ -1,6 +1,5 @@
 ---
 title: "Recent Releases: Selling Sexy"
-date: today
 featured_image: /images/book-review.jpg
 tags:
 - bookreview
