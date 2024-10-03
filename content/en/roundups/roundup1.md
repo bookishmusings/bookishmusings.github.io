@@ -16,7 +16,7 @@ tags:
 - NetGalley
 ---
 
-today's round up is thanks largely to Netgalley. here are five new and upcoming books i'm excited about. 
+today's round up is thanks to Netgalley and the publishers. here are five new and upcoming books i'm excited about. 
 
 **Selling Sexy**, by Lauren Sherman; Chantal Fernandez
 
