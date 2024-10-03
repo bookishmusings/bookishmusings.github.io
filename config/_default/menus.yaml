@@ -6,7 +6,7 @@ main:
   - name: reviews
     url: '/post'
     weight: 20
-  - name: thoughts/rants
+  - name: rants
     url: "/rants"
     weight: 40
   - name: subscribe!
