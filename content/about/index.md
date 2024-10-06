@@ -1,8 +1,4 @@
 ---
-image: /images/banner.png
-menu:
-  main:
-    weight: 1
 title: about
 ---
 
