@@ -1,0 +1,59 @@
+baseURL = "https://bookishmusings.netlify.app/"
+languageCode = "en-us"
+title = "Bookish Musings by A"
+theme = "digitalgarden"
+copyright = "AP©"
+enableEmojis = true
+relativeURLs = false
+canonifyURLs = true
+
+googleAnalytics = "UA-PROPERTY_ID"
+
+[params]
+  description = "My Digital Garden on the Internet"
+  images = ['/banner.png']
+  enableSearch = true
+  
+  [[params.social]]
+  name = 'RSS'
+  url = '/index.xml'
+  weight = 5
+
+[params.newsletter]
+  title = "subscribe!"  # Add a title if you have one
+  description = "A curated weekly digest once a week to your mailbox"
+  provider = "substack"
+  path = "https://bookishmusingsbya.substack.com/"
+
+[menu]
+  [[menu.main]]
+    name = 'about'
+    url = '/about/'
+    weight = 1
+
+  [[menu.main]]
+    name = 'reviews'
+    url = '/reviews/'  # Fixed URL structure with leading and trailing slash
+    weight = 2
+
+  [[menu.main]]
+    name = 'roundups'
+    url = '/roundups/'
+    weight = 3
+
+  [[menu.main]]
+    name = 'rants'
+    url = '/rants/'
+    weight = 4
+
+
+
+# syntax highlight settings
+[markup]
+  [markup.highlight]
+    style = "dracula"
+  [markup.goldmark.renderer]
+    # Enable to include inline HTML
+    unsafe = true
+
+
