@@ -1,5 +1,5 @@
 [build]
-command = "hugo --gc --minify -b https://netlify.app/"
+command = "hugo --gc --minify -b bookishmusings.netlify.app"
 publish = "public"
 [build.environment]
 HUGO_VERSION = "0.81.0"
