@@ -28,22 +28,22 @@ googleAnalytics = "UA-PROPERTY_ID"
 [menu]
   [[menu.main]]
     name = 'about'
-    url = '/about/'
+    url = '/about'
     weight = 1
 
   [[menu.main]]
     name = 'reviews'
-    url = '/reviews/'  # Fixed URL structure with leading and trailing slash
+    url = '/reviews'  # Fixed URL structure with leading and trailing slash
     weight = 2
 
   [[menu.main]]
     name = 'roundups'
-    url = '/roundups/'
+    url = '/roundups'
     weight = 3
 
   [[menu.main]]
     name = 'rants'
-    url = '/rants/'
+    url = '/rants'
     weight = 4
 
 
