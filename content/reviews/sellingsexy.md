@@ -1,5 +1,6 @@
 ---
-title: "Recent Releases: Selling Sexy"
+title: Recent Releases: Selling Sexy
+date: 2024-10-08
 ---
 
 Thank you to Netlify and the publisher for an ARC.
